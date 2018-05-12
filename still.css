@@ -1,0 +1,345 @@
+
+body{
+	font-family: Verdana, monospace, sans-serif;
+	font-size:15px;
+	font-weight: bold;
+	text-align:justify;
+	
+	
+}
+
+
+.container{
+	background-image: url("arkaplann.jpg");
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+	width:960px;
+	height:970px;;
+	overflow:hidden;
+	margin:auto;	
+}
+
+header{
+	width:960px;
+	height:160px;
+	border:black 1px solid ;
+}
+
+
+.header{
+	width:960px;
+	height:160px;
+	background-color:#0099ff;
+	
+	
+}
+
+#giris{
+	width:200px;
+	height:25px;
+	float:left;
+	margin-left:790px;
+	margin-top:135px;
+	
+}
+#giris form button a{
+	text-decoration:none;
+	color:black;
+}
+
+#logo img{
+	width:190px;
+	height:160px;
+	position:absolute;
+	top:10px;
+	left:290px;
+	
+	
+}
+	
+
+nav{
+	width:960px;
+	height:40px;
+	background-color:lightgray;
+	
+	
+	
+	
+	
+}
+
+
+	
+
+nav ul{
+	text-shadow:1px 2px 3px black;
+	color:#0099ff;
+	font-size:15px;
+	list-style-type:none;
+	
+	
+	
+}
+nav ul div li {
+	line-height:17px;
+	letter-spacing:2px;
+	
+	padding-left:15px;
+	
+	
+	
+}
+#content{
+	
+	
+	width:960px;
+	height:100%;
+	background-color:lightgray;
+	opacity:0.70;
+	
+	
+	
+	
+}
+#content div{
+	opacity:0.80;
+	width:450px;
+	height:450px;
+	position:absolute;
+	bottom:-50px;
+	right:550px;
+	border: black 2px solid;
+	color:black;
+	padding:15px;	
+	border-radius:30px;
+	line-height:25px;
+	
+	
+	
+}
+#content div p{
+	padding-top:30px;
+}
+#si{
+	width:180px;
+	height:38px;
+	background-color:lightcoral;
+	position:relative;
+	float:left;
+	border:lightcoral 2px solid;
+	margin-right:1px;
+	margin-left:-25px;
+	text-align:center;
+	border-radius:30px;
+	
+}
+#si li {
+	padding:5px;
+	text-align:center;
+}
+#si li a{
+	text-decoration:none;
+	color:#0099ff;
+	
+}
+#si:hover{
+	background-color:white;
+}
+
+#ek{
+	width:180px;
+	height:38px;
+	background-color:lightcoral;
+	position:relative;
+	float:left;
+	border: lightcoral 2px solid;
+	text-align:center;
+	border-radius:30px;
+}
+
+
+#ek li{
+	padding-right:5px;
+	padding-top:5px;
+	text-align:center;
+}
+
+#ek li a{
+	text-decoration:none;
+	color:#0099ff;
+}
+#ek:hover{
+	background-color:white;
+}
+#bi{
+	width:180px;
+	height:38px;
+	background-color:lightcoral;
+	position:relative;
+	float:left;
+	border: lightcoral 2px solid;
+	padding:0px;
+	text-align:center;
+	border-radius:30px;
+}
+
+#bi li a{
+	text-decoration:none;
+	color:#0099ff;
+}
+#bi:hover{
+	background-color:white;
+}
+
+#ed{
+	width:180px;
+	height:38px;
+	background-color:lightcoral;
+	position:relative;
+	float:left;
+	border: lightcoral 2px solid;
+	margin-right:0px;
+	text-align:center;
+	border-radius:30px;
+}
+#ed li{
+	padding-right:5px;
+	padding-top:5px;
+	text-align:center;
+}
+
+#ed li a{
+	text-decoration:none;
+	color:#0099ff;
+}
+#ed:hover{
+	background-color:white;
+}
+#di{
+	width:180px;
+	height:38px;
+	background-color:lightcoral;
+	position:relative;
+	float:left;
+	border: lightcoral 2px solid;
+	margin-right:0px;
+	text-align:center;
+	border-radius:30px;
+}
+
+#di li{
+	padding-right:5px;
+	padding-top:5px;
+	text-align:center;
+}
+#di li a{
+	text-decoration:none;
+	color:#0099ff;
+}
+#di:hover{
+	background-color:white;
+}
+footer{
+	background-color:lightgray;
+	width:960px;
+	height:120px;
+	position:absolute;
+	bottom:-320px;
+	
+}
+footer ul{
+	list-style-type:none;
+	color:#0099ff;
+	font-size:11px;
+	margin-bottom:50px;
+	margin:20px;
+	line-height:20px;
+}
+
+	
+
+
+#soz{
+	width:345px;
+	height:70px;	
+	position:absolute;
+	top:50px;
+	right:605px;	
+	list-style-type:none;
+	border-left: lightcoral 2px solid;
+	border-right: lightcoral 2px solid;
+	overflow:hidden;
+	
+	background-color::#0099ff;
+	opacity:0.60;
+
+	
+}
+#soz p{
+	color:black;
+	text-shadow:1px 1px 2px black;
+	font-size:17px;
+}
+#medya{
+	width:230px;
+	height:65px;
+	font-size:10px;
+	position:absolute;
+	right:20px;
+	top:20px;
+	float:left;
+}
+#face{
+	width:70px;
+	height:70px;
+	
+}
+#inst{
+	width:55px;
+	height:55px;
+	margin-right:20px;
+	margin-bottom:14px;
+}
+#twit{
+	width:50px;
+	height:50px;
+	margin-right:20px;
+	margin-bottom:17px;
+}
+#bilgiler li a{
+	text-decoration:none;
+	color:#0099ff;
+}
+#hak{
+	width:400px;
+	height:25px;
+	font-size:14px;
+	margin:auto;
+	margin-top:-100px;
+	padding-bottom:5px;
+}
+#konus{
+	width:304px;
+	height:104px;
+	border: red 2px solid;
+	position:relative;
+	margin:auto;
+	font-size:15px;
+	text-decoration:underline;
+	
+}
+#reklam{
+	width:100px;
+	height:100px;
+	position:absolute;
+	right:290px;
+	border:black 2px solid;
+	font-size:12px;
+}
+#reklam img{
+	width:90px;
+	height:70px;
+}
+
