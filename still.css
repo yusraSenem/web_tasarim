@@ -1,4 +1,11 @@
 
+html{
+	
+	width:960px;
+	height:100%;
+	margin:auto;
+}
+
 body{
 	font-family: Verdana, monospace, sans-serif;
 	font-size:15px;
@@ -15,9 +22,8 @@ body{
 	background-attachment:scroll;
 	background-size:cover;
 	width:960px;
-	height:970px;;
-	overflow:hidden;
-	margin:auto;	
+	height:100%;
+	margin:auto;
 }
 
 header{
@@ -92,12 +98,11 @@ nav ul div li {
 	
 }
 #content{
-	
-	
 	width:960px;
 	height:100%;
 	background-color:lightgray;
 	opacity:0.70;
+	margin:auto;
 	
 	
 	
@@ -106,15 +111,15 @@ nav ul div li {
 #content div{
 	opacity:0.80;
 	width:450px;
-	height:450px;
-	position:absolute;
-	bottom:-50px;
-	right:550px;
+	height:350px;
+	position:relative;
+	margin:auto;
 	border: black 2px solid;
 	color:black;
-	padding:15px;	
+	padding:15px;
 	border-radius:30px;
 	line-height:25px;
+	bottom:-100px;
 	
 	
 	
@@ -244,9 +249,9 @@ nav ul div li {
 footer{
 	background-color:lightgray;
 	width:960px;
-	height:120px;
+	height:150px;
 	position:absolute;
-	bottom:-320px;
+	bottom:-145px;
 	
 }
 footer ul{
@@ -321,14 +326,20 @@ footer ul{
 	padding-bottom:5px;
 }
 #konus{
-	width:304px;
-	height:104px;
-	border: red 2px solid;
+	width:250px;
+	height:10px;
 	position:relative;
 	margin:auto;
+	top:-650px;
 	font-size:15px;
 	text-decoration:underline;
 	
+	
+}
+#konus p{
+	width:200px;
+	height:10px;
+	color:red;
 }
 #reklam{
 	width:100px;
